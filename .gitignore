@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data (too large for git)
+data/
+*.pt
+*.pkl
+
+# Model checkpoints (too large for git)
+models/*.pth
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.docx
+*.pdf
+.claude/
